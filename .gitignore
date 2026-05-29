@@ -33,10 +33,6 @@ Thumbs.db
 122_signature_emails.xlsx
 Email_signature 122.pptx (1).pptx
 
-# Root-level workspace files (not needed, Vercel uses web-app/ directly)
-/package.json
-/package-lock.json
-/vercel.json
-
 # Lockfiles — let Vercel regenerate on Linux (avoids Windows/Linux binary mismatch)
+/package-lock.json
 web-app/package-lock.json

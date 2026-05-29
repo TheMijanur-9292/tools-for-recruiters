@@ -1,0 +1,20 @@
+{
+  "name": "tools-for-recruiters",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "web-app"
+  ],
+  "scripts": {
+    "dev": "npm --workspace web-app run dev",
+    "build": "npm --workspace web-app run build",
+    "start": "npm --workspace web-app run start",
+    "vercel-build": "npm --workspace web-app run build"
+  },
+  "dependencies": {
+    "next": "16.2.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
